@@ -1,0 +1,1 @@
+{"version":3,"file":"boastimagepromo/style-index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://boast-blocks/./src/boastimagepromo/style.scss"],"sourcesContent":["p {\n\tcolor: red;\n}\n"],"names":[],"sourceRoot":""}

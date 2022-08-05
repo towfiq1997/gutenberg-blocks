@@ -1,0 +1,84 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+span.pros-cons-icon svg {
+	width: 20px;
+}
+
+.pros-cons-title-container {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	padding: 0 15px;
+}
+
+button.plus-button {
+	margin-top: 15px;
+	border: none;
+	padding: 0px;
+	background: none;
+	font-size: 20px;
+	height: auto;
+	width: auto;
+	cursor: pointer;
+	text-align: center;
+}
+
+button.plus-button svg {
+	width: 22px;
+	fill: green;
+	outline: none;
+}
+ul.pros-cons-list-container {
+	list-style: none;
+	padding: 20px !important;
+	margin: 0;
+}
+.pros-cons-list-item {
+	font-size: 16px;
+	line-height: 20px;
+	list-style: none;
+	margin: 0 0 15px !important;
+	padding-right: 30px;
+	position: relative;
+}
+.pros-cons-list-item svg {
+	height: 20px;
+	margin: 0 10px 6px 0;
+	vertical-align: text-top;
+	width: 20px;
+}
+.pros-cons-list-item > span {
+	word-break: break-all;
+}
+.pros-cons-delete-item svg {
+	fill: #ec0000;
+	height: 16px;
+	width: 16px;
+}
+button.pros-cons-delete-item {
+	position: absolute;
+	right: 0;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.pros-cons-block-section {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	gap: 20px;
+	margin-bottom: 20px;
+}
+
+.pros-container {
+	flex: 1;
+}
+.cons {
+	fill: #ec0000;
+}

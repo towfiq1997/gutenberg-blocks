@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "optimum-blocks/boastquote",
+  "version": "0.1.0",
+  "title": "Boast Quote",
+  "category": "common",
+  "icon": "smiley",
+  "description": "Boast Quote for pages",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "quoteText": {
+      "type": "string"
+    },
+    "citeText": {
+      "type": "string"
+    },
+    "borderTopColor": {
+      "type": "string",
+      "default": "#30b780"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#f2f3f4"
+    },
+    "quoteFontSize": {
+      "type": "string",
+      "default": "20px"
+    },
+    "quoteColor": {
+      "type": "string",
+      "default": "black"
+    },
+    "citeFontSize": {
+      "type": "string",
+      "default": "20px"
+    },
+    "citeColor": {
+      "type": "string",
+      "default": "#30b780"
+    }
+  },
+  "textdomain": "my-post-grid",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

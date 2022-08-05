@@ -1,0 +1,1 @@
+{"version":3,"file":"boasttestimony/style-index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://boast-blocks/./src/boasttestimony/style.scss"],"sourcesContent":["p {\n\tcolor: red;\n}\n"],"names":[],"sourceRoot":""}

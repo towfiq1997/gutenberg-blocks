@@ -1,0 +1,59 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.boasttestimony {
+	position: relative;
+	border: 2px solid #d6d7d9;
+	border-radius: 25px;
+	padding: 30px;
+	margin-bottom: 15px;
+}
+.boasttestimony::after {
+	position: absolute;
+	height: 10px;
+	width: 30%;
+	content: "";
+	background: white;
+	top: -7px;
+	right: 50%;
+	transform: translateX(50%);
+	z-index: 3;
+}
+.img-container {
+	position: absolute;
+	z-index: 4;
+	transform: translate(50%, -55%);
+	right: 50%;
+	top: 0;
+}
+.img-container img {
+	width: 95px !important;
+	height: auto !important;
+}
+.img-rel {
+	position: relative;
+}
+.img-rel svg {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	cursor: pointer;
+	z-index: 10;
+}
+.testimonycontent {
+	margin: 0 1.5em;
+	line-height: 1.2;
+	margin-top: 22px;
+}
+.anchor_ {
+	text-align: center;
+	margin-top: 5px;
+}
+.anchor_ a {
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+	text-align: center;
+}
