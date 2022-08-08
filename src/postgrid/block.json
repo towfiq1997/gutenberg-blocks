@@ -1,0 +1,34 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/my-post-grid",
+	"version": "0.1.0",
+	"title": "Jupitar Post Grid",
+	"category": "common",
+	"icon": "smiley",
+	"description": "Example static block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"gridColumn": {
+			"type": "number",
+			"default": 3
+		},
+		"categoryType": {
+			"type": "string"
+		},
+		"postPerpage": {
+			"type": "number",
+			"default": 3
+		},
+		"postGridtitle": {
+			"type": "string",
+			"default": "Blog"
+		}
+	},
+	"textdomain": "my-post-grid",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

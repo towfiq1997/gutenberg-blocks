@@ -1,0 +1,112 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.post-card-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+	margin-bottom: 30px;
+}
+.post-card-container.one-column {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.post-card-container.one-column {
+	grid-template-columns: 1fr;
+}
+.post-card-container.two-column {
+	grid-template-columns: 1fr 1fr;
+}
+.post-card-container.three-column {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.post-card-container.four-column {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.post-card-container.five-column {
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.post-card-container.six-column {
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.post-card {
+	box-shadow: var(--box-shadow-normal);
+}
+.post-section {
+	padding: 50px 0;
+	/* background-color: rgba(222, 228, 218, 0.7); */
+}
+.post-card {
+	border: 1px solid var(--secondary-border-color);
+	border-radius: 10px 10px 0 0;
+	z-index: 12;
+	transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+	position: relative;
+	background: #fff;
+}
+
+.post-thumnail {
+	min-height: 220px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px 10px 0 0;
+	background-position: center center;
+	overflow: hidden;
+}
+.post-card-content h5 a {
+	font-size: 20px;
+	font-weight: 900;
+}
+.post-content {
+	padding: 30px !important;
+	background: #fff;
+	border-radius: 0 0 10px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+h3.grid-title {
+	font-weight: 900;
+	font-size: 30px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+h3.grid-title:after {
+	position: absolute;
+	content: "";
+	background: #8080803d;
+	height: 3px;
+	width: 100%;
+	right: 0;
+	bottom: 0;
+}
+
+h3.grid-title:before {
+	position: absolute;
+	content: "";
+	background: #fd3636;
+	height: 3px;
+	width: 30%;
+	left: 0;
+	bottom: 0;
+}
+.post-thumnail {
+	position: relative;
+}
+.img-link {
+	display: block;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+}
+.hover-up:hover {
+	transform: translateY(-5px);
+	box-shadow: var(--box-shadow-hover), 0 0 0 transparent;
+}
